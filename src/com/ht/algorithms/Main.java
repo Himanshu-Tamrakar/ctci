@@ -1,16 +1,22 @@
 package com.ht.algorithms;
 
+import libs.LinkedList;
+import libs.Node;
+import libs.SinglyLinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
-	    System.out.println(Solution1_6.compress("aab"));
+       Solution2_8.main();
     }
 
-    /**
-     * Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you
-     * cannot use additional data structures?
-     */
-    public static void solution1_1() {
-
+    public static Node generateListAndReturn(int[] arr) {
+        libs.LinkedList list = new LinkedList();
+        for (int n: arr) {
+            list.add(n);
+        }
+        return list.getList();
     }
+
+
 }
