@@ -4,10 +4,13 @@ import libs.LinkedList;
 import libs.Node;
 import libs.SinglyLinkedList;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
-       Solution2_8.main();
+        Solution3_6.main();
+
     }
 
     public static Node generateListAndReturn(int[] arr) {
