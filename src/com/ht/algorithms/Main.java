@@ -9,8 +9,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        Solution3_6.main();
-
+        Solution4_12.main();
     }
 
     public static Node generateListAndReturn(int[] arr) {
