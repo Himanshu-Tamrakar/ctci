@@ -9,15 +9,34 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        Solution4_12.main();
+        sieveOfEratosthenes(10);
     }
 
-    public static Node generateListAndReturn(int[] arr) {
-        libs.LinkedList list = new LinkedList();
-        for (int n: arr) {
-            list.add(n);
+    public static void sieveOfEratosthenes(int n) {
+        boolean[] flags = new boolean[n+1];
+        int prime = 2;
+
+        while (prime <= Math.sqrt(n)) {
+            crossOff(flags, prime);
+            prime = nextPrime(flags, prime);
         }
-        return list.getList();
+
+        for (int i = 0; i < flags.length; i++) {
+            if(!flags[i]) System.out.printf("%d ", i);
+        }
+    }
+
+    private static void crossOff(boolean[] flags, int prime) {
+        for (int i = prime * prime; i < flags.length; i += prime) {
+            flags[i] = true;
+        }
+    }
+
+    private static int nextPrime(boolean[] flags, int prime) {
+        for (int i = prime+1; i < flags.length; i++) {
+            if(!flags[i]) return i;
+        }
+        return Integer.MAX_VALUE;
     }
 
 
