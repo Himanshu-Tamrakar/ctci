@@ -2,7 +2,7 @@ package libs;
 
 import com.ht.algorithms.Solution2_1;
 
-public class LinkedList {
+public class LinkedList<I extends Number> {
     Node head;
 
     public void add(int v) {

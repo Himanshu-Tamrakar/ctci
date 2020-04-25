@@ -1,15 +1,113 @@
 package com.ht.algorithms;
 
-import libs.LinkedList;
-import libs.Node;
-import libs.SinglyLinkedList;
-
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Scanner;
 
 public class Main {
+//    private static final Scanner scanner = new Scanner(System.in);
+//
+//
+//
+//    static String[] crosswordPuzzle(String[] crossword, String words) {
+//        return null;
+//    }
+//
+//    private static void fullyFitPuzzle(String[] crossword, String words) {
+//        HashSet<String> set = new HashSet<>();
+//        for (String s: words.split(";")) {
+//            set.add(s);
+//        }
+//
+//        for (int i = 0; i < 10; i++) {
+//            Position p = firstAndLastPositionOfMinus(crossword[i]);
+//            String word = wordWithSize(p.size, set);
+//            if(word != null) {
+//                for (int j = p.first; j <= p.last; j++) {
+//                    StringBuilder sb = new StringBuilder(crossword[i]);
+//                    sb.setCharAt(j, word.charAt(j-p.first));
+//                    crossword[i] = sb.toString();
+//                }
+//                set.remove(word);
+//            }
+//
+//        }
+//    }
+//
+//    private static String wordWithSize(int size, HashSet<String> set) {
+//        for (String s: set) {
+//            if(s.length() == size) return s;
+//        }
+//        return null;
+//    }
+//
+//    private ArrayList<String> wordsWithSize(int size, String words) {
+//        ArrayList<String> list = new ArrayList<>();
+//        for (String s: words.split(";")) {
+//            if(s.length() == size) list.add(s);
+//        }
+//        return list;
+//    }
+//    private static class Position {
+//        int first;
+//        int last;
+//        int size = 0;
+//        public Position(int first, int last, int size) {
+//            this.first = first;
+//            this.last = last;
+//            this.size = size;
+//        }
+//    }
+//    private static Position firstAndLastPositionOfMinus(String s) {
+//        int lo = 0;
+//        int hi = s.length()-1;
+//        int first = -1, last = -1;
+//        while (lo <= hi) {
+//            if(s.charAt(lo) == '-') {
+//                first = lo;
+//                break;
+//            }
+//            lo++;
+//        }
+//        if(lo == hi) last = first;
+//        else {
+//            while (hi >= lo) {
+//                if(s.charAt(hi) == '-' ) {
+//                    last = hi;
+//                    break;
+//                }
+//                hi--;
+//            }
+//        }
+//
+//        return new Position(first, last, last-first+1);
+//    }
+//    private static void readInput() throws IOException {
+//        String[] crossword = new String[10];
+//
+//        for (int i = 0; i < 10; i++) {
+//            String crosswordItem = scanner.nextLine();
+//            crossword[i] = crosswordItem;
+//        }
+//
+//        String words = scanner.nextLine();
+//
+//        fullyFitPuzzle(crossword, words);
+//        scanner.close();
+//    }
 
     public static void main(String[] args) {
-        sieveOfEratosthenes(10);
+//        try {
+//            readInput();
+//        } catch(IOException ioex) {
+//            System.out.println(ioex);
+//        }
+
+
+
     }
 
     public static void sieveOfEratosthenes(int n) {

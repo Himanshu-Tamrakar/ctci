@@ -2,13 +2,10 @@ package com.ht.algorithms;
 
 import libs.LinkedList;
 import libs.Node;
-import libs.SinglyLinkedList;
-
-import java.util.HashSet;
 
 public class Solution2_1 {
     public static Node generateListAndReturn() {
-        LinkedList list = new LinkedList();
+        LinkedList<Number> list = new LinkedList<Number>();
         list.add(1); list.add(2); list.add(8); list.add(4); list.add(3);
         list.add(1); list.add(2); list.add(8); list.add(4); list.add(3);
         return list.getList();

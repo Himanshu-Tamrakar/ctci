@@ -64,7 +64,7 @@ public class Solution2_8 {
     }
 
     public static Node generateListAndReturn(int[] arr) {
-        libs.LinkedList list = new LinkedList();
+        libs.LinkedList<Number> list = new LinkedList<Number>();
         for (int n: arr) {
             list.add(n);
         }

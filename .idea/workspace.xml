@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0b6b96d-921b-42d8-aeb4-04b71c7e72c2" name="Default Changelist" comment="chapter4:ctci">
-      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution5_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution5_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution5_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution5_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution5_7.java" afterDir="false" />
+    <list default="true" id="d0b6b96d-921b-42d8-aeb4-04b71c7e72c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution8_9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ctci/com/ht/algorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ctci/com/ht/algorithms/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ht/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ht/algorithms/Solution2_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586587708148</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chapter5:ctci">
+      <created>1587096763897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587096763898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,21 +128,22 @@
     <MESSAGE value="chapter2:ctci" />
     <MESSAGE value="chapter3:ctci" />
     <MESSAGE value="chapter4:ctci" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter4:ctci" />
+    <MESSAGE value="chapter5:ctci" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter5:ctci" />
   </component>
   <component name="WindowStateProjectService">
     <state x="300" y="58" width="800" height="677" key="#Notifications" timestamp="1586587756068">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="300" y="58" width="800" height="677" key="#Notifications/45.27.1321.741@45.27.1321.741" timestamp="1586587756068" />
-    <state x="513" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1585825950848">
+    <state x="513" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1587107846094">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="513" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/45.27.1321.741@45.27.1321.741" timestamp="1585825950848" />
-    <state x="307" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1586587775708">
+    <state x="513" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/45.27.1321.741@45.27.1321.741" timestamp="1587107846094" />
+    <state x="307" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1587096763000">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="307" y="27" width="777" height="741" key="CommitChangelistDialog2/45.27.1321.741@45.27.1321.741" timestamp="1586587775708" />
+    <state x="307" y="27" width="777" height="741" key="CommitChangelistDialog2/45.27.1321.741@45.27.1321.741" timestamp="1587096763000" />
     <state width="438" height="478" key="DebuggerActiveHint" timestamp="1585928553490">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
@@ -136,58 +152,58 @@
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="483" y="155" width="424" height="484" key="FileChooserDialogImpl/45.27.1321.741@45.27.1321.741" timestamp="1585825297850" />
-    <state width="1275" height="186" key="GridCell.Tab.0.bottom" timestamp="1586692326568">
+    <state width="1275" height="313" key="GridCell.Tab.0.bottom" timestamp="1587806206440">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.0.bottom/45.27.1321.741@45.27.1321.741" timestamp="1586692326568" />
-    <state width="1275" height="186" key="GridCell.Tab.0.center" timestamp="1586692326566">
+    <state width="1275" height="313" key="GridCell.Tab.0.bottom/45.27.1321.741@45.27.1321.741" timestamp="1587806206440" />
+    <state width="1275" height="313" key="GridCell.Tab.0.center" timestamp="1587806206436">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.0.center/45.27.1321.741@45.27.1321.741" timestamp="1586692326566" />
-    <state width="1275" height="186" key="GridCell.Tab.0.left" timestamp="1586692326566">
+    <state width="1275" height="313" key="GridCell.Tab.0.center/45.27.1321.741@45.27.1321.741" timestamp="1587806206436" />
+    <state width="1275" height="313" key="GridCell.Tab.0.left" timestamp="1587806206434">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.0.left/45.27.1321.741@45.27.1321.741" timestamp="1586692326566" />
-    <state width="1275" height="186" key="GridCell.Tab.0.right" timestamp="1586692326567">
+    <state width="1275" height="313" key="GridCell.Tab.0.left/45.27.1321.741@45.27.1321.741" timestamp="1587806206434" />
+    <state width="1275" height="313" key="GridCell.Tab.0.right" timestamp="1587806206438">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.0.right/45.27.1321.741@45.27.1321.741" timestamp="1586692326567" />
-    <state width="1275" height="186" key="GridCell.Tab.1.bottom" timestamp="1586692326569">
+    <state width="1275" height="313" key="GridCell.Tab.0.right/45.27.1321.741@45.27.1321.741" timestamp="1587806206438" />
+    <state width="1275" height="313" key="GridCell.Tab.1.bottom" timestamp="1587806206447">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.1.bottom/45.27.1321.741@45.27.1321.741" timestamp="1586692326569" />
-    <state width="1275" height="186" key="GridCell.Tab.1.center" timestamp="1586692326569">
+    <state width="1275" height="313" key="GridCell.Tab.1.bottom/45.27.1321.741@45.27.1321.741" timestamp="1587806206447" />
+    <state width="1275" height="313" key="GridCell.Tab.1.center" timestamp="1587806206443">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.1.center/45.27.1321.741@45.27.1321.741" timestamp="1586692326569" />
-    <state width="1275" height="186" key="GridCell.Tab.1.left" timestamp="1586692326568">
+    <state width="1275" height="313" key="GridCell.Tab.1.center/45.27.1321.741@45.27.1321.741" timestamp="1587806206443" />
+    <state width="1275" height="313" key="GridCell.Tab.1.left" timestamp="1587806206441">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.1.left/45.27.1321.741@45.27.1321.741" timestamp="1586692326568" />
-    <state width="1275" height="186" key="GridCell.Tab.1.right" timestamp="1586692326569">
+    <state width="1275" height="313" key="GridCell.Tab.1.left/45.27.1321.741@45.27.1321.741" timestamp="1587806206441" />
+    <state width="1275" height="313" key="GridCell.Tab.1.right" timestamp="1587806206445">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state width="1275" height="186" key="GridCell.Tab.1.right/45.27.1321.741@45.27.1321.741" timestamp="1586692326569" />
+    <state width="1275" height="313" key="GridCell.Tab.1.right/45.27.1321.741@45.27.1321.741" timestamp="1587806206445" />
     <state x="188" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1585825302744">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state x="188" y="27" width="1024" height="741" key="SettingsEditor/45.27.1321.741@45.27.1321.741" timestamp="1585825302744" />
-    <state x="300" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586587712816">
+    <state x="300" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587096767533">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="300" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1321.741@45.27.1321.741" timestamp="1586587712816" />
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1587096675581">
+    <state x="300" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1321.741@45.27.1321.741" timestamp="1587096767533" />
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1587805693811">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/45.27.1321.741@45.27.1321.741" timestamp="1587096675581" />
+    <state x="361" y="224" key="com.intellij.ide.util.TipDialog/45.27.1321.741@45.27.1321.741" timestamp="1587805693811" />
     <state width="602" height="325" key="javadoc.popup" timestamp="1586498564750">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
     <state width="602" height="325" key="javadoc.popup/45.27.1321.741@45.27.1321.741" timestamp="1586498564750" />
-    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585978135450">
+    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1587716190104">
       <screen x="45" y="27" width="1321" height="741" />
     </state>
-    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup/45.27.1321.741@45.27.1321.741" timestamp="1585978135450" />
+    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup/45.27.1321.741@45.27.1321.741" timestamp="1587716190104" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,6 +257,41 @@
           <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Solution5_3.java</url>
           <line>4</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Solution8_2.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Solution8_4.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Solution8_5.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Solution8_11.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Main.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Main.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/ht/algorithms/Sulution3_1.java</url>

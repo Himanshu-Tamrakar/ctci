@@ -3,7 +3,6 @@ package com.ht.algorithms;
 import libs.LinkedList;
 import libs.Node;
 
-import java.util.HashSet;
 import java.util.TreeSet;
 
 public class Solution2_7 {
@@ -93,7 +92,7 @@ public class Solution2_7 {
     }
 
     public static Node generateListAndReturn(int[] arr) {
-        libs.LinkedList list = new LinkedList();
+        libs.LinkedList<Number> list = new LinkedList<Number>();
         for (int n: arr) {
             list.add(n);
         }
